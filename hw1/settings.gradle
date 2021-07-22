@@ -1,0 +1,3 @@
+include ':app:hw1-2'
+include ':app'
+rootProject.name = "hw1"
