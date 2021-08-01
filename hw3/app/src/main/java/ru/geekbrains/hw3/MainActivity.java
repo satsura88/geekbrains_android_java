@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 case "=":
                     operand =number;
                     break;
-                case "/":
+                case "÷":
                     if(number==0){
                         operand =0.0;
                     }
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                         operand /=number;
                     }
                     break;
-                case "*":
+                case "x":
                     operand *=number;
                     break;
                 case "+":
@@ -101,9 +101,10 @@ public class MainActivity extends AppCompatActivity {
                 case "-":
                     operand -=number;
                     break;
-
             }
         }
+
+
         resultField.setText(operand.toString().replace('.', ','));
         numberField.setText("");
     }
