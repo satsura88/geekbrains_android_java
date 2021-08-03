@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextViewWidth">350dp</dimen>
+    <dimen name="TextViewHeight">60dp</dimen>
+    <dimen name="NumbersTextSize">35sp</dimen>
+    <dimen name="ButtonTextSize">30sp</dimen>
+</resources>
