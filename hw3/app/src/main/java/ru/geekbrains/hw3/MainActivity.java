@@ -2,6 +2,7 @@ package ru.geekbrains.hw3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,17 +11,26 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView resultField;
-    EditText numberField;
-    TextView operationField;
-    Double operand = null;
-    String lastOperation = "=";
-
+    private TextView resultField;
+    private EditText numberField;
+    private TextView operationField;
+    private Double operand = null;
+    private String lastOperation = "=";
+    Button settings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        settings = findViewById(R.id.button_settings);
+        final Intent i = new Intent(MainActivity.this,SettingsActivity.class);
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(i);
+            }
+        });
 
         resultField =(TextView) findViewById(R.id.resultField);
         numberField = (EditText) findViewById(R.id.numberField);

@@ -234,7 +234,7 @@
         app:layout_constraintBottom_toTopOf="@id/button_multiplication"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/button3"
-        app:layout_constraintTop_toBottomOf="@id/button_proc"/>
+        app:layout_constraintTop_toBottomOf="@id/button_settings"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_delete"
@@ -264,13 +264,13 @@
         app:layout_constraintBottom_toTopOf="@id/button3"
         app:layout_constraintStart_toEndOf="@id/button_delete"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/button_proc" />
+        app:layout_constraintEnd_toStartOf="@id/button_settings" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_proc"
+        android:id="@+id/button_settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_proc"
+        android:text="@string/_settings"
         android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
