@@ -19,6 +19,6 @@
     <string name="_delete">AC</string>
     <string name="_backspace">⌫</string>
     <string name="_settings">⚙</string>
-    <string name="name_ligth_theme">Светлая тема</string>
+    <string name="name_light_theme">Светлая тема</string>
     <string name="name_dark_theme">Темная тема</string>
 </resources>

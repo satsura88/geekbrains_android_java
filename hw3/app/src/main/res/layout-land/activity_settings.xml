@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:text="@string/name_ligth_theme"
+            android:text="@string/name_light_theme"
             android:textColor="@color/white"
             android:textSize="@dimen/ButtonTextSize" />
 

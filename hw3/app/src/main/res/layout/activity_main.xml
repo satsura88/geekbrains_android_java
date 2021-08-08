@@ -7,14 +7,11 @@
     tools:context=".MainActivity"
     android:background="@drawable/penguin">
 
-
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_1"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -29,7 +26,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_2"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -43,7 +39,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_3"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -58,7 +53,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_4"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -73,7 +67,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_5"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -87,7 +80,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_6"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -101,7 +93,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_7"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -116,7 +107,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_8"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -130,7 +120,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_9"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -144,7 +133,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -157,7 +145,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_point"
-        android:onClick="onNumberClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -170,7 +157,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_eq"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -183,21 +169,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_plus"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
         app:layout_constraintEnd_toEndOf="@id/button_subtraction"
         app:layout_constraintStart_toEndOf="@id/button_eq"
-        app:layout_constraintTop_toBottomOf="@id/button_subtraction"
-        />
+        app:layout_constraintTop_toBottomOf="@id/button_subtraction" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_subtraction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_subtraction"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -212,7 +195,6 @@
         android:layout_height="wrap_content"
         android:text="@string/_multiplication"
         android:textAllCaps="false"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -226,7 +208,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_division"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -241,7 +222,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_delete"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -256,7 +236,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_backspace"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -271,7 +250,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_settings"
-        android:onClick="onOperationClick"
         android:background="@android:color/transparent"
         android:textColor="@color/black"
         android:textSize="@dimen/ButtonTextSize"
@@ -281,7 +259,7 @@
         app:layout_constraintStart_toEndOf="@id/button_backspace"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/resultField"
         android:layout_width="@dimen/TextViewWidth"
         android:layout_height="@dimen/TextViewHeight"
@@ -290,22 +268,13 @@
         app:layout_constraintEnd_toEndOf="@+id/operationField"
         app:layout_constraintStart_toStartOf="@+id/operationField" />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/operationField"
         android:layout_width="@dimen/TextViewWidth"
         android:layout_height="@dimen/TextViewHeight"
         android:textSize="@dimen/NumbersTextSize"
-        app:layout_constraintBottom_toTopOf="@+id/numberField"
-        app:layout_constraintEnd_toEndOf="@+id/numberField"
-        app:layout_constraintStart_toStartOf="@+id/numberField" />
-
-    <EditText
-        android:id="@+id/numberField"
-        android:layout_width="@dimen/TextViewWidth"
-        android:layout_height="@dimen/TextViewHeight"
-        android:textSize="@dimen/NumbersTextSize"
+        app:layout_constraintStart_toStartOf="@+id/button_delete"
         app:layout_constraintBottom_toTopOf="@+id/button_backspace"
-        app:layout_constraintEnd_toEndOf="@+id/button_proc"
-        app:layout_constraintStart_toStartOf="@+id/button_delete"/>
+        app:layout_constraintEnd_toEndOf="@+id/button_settings"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
