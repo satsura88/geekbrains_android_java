@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>дни рождения родственников</item>
+        <item>купить киберпанк</item>
+        <item>список покупок</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>всё равно ты их никогда не запомнишь(</item>
+        <item>купишь когда закончишь учёбу и поменяешь работу, как раз его и допилят до ума)</item>
+        <item>на что хватит денег)</item>
+    </string-array>
+
+    <integer-array name="dates">
+        <item>1988</item>
+        <item>2077</item>
+        <item>2021</item>
+    </integer-array>
+</resources>
